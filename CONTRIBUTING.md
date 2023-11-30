@@ -19,20 +19,25 @@ git checkout -b feature/your-feature-name
 
 4. **Make Changes:** Make your desired changes to the codebase, add new algorithms, improve existing implementations, or fix issues.
 
-5. **Commit Your Changes:** Commit your changes with a clear and concise commit message:
+5. **Run Cppcheck:** Before creating a pull request, please ensure that you run [Cppcheck](https://cppcheck.sourceforge.io/) on your code using the following command and fix any errors or warnings returned:
+```shell
+cppcheck --enable=all --inconclusive --std=c++17 --language=c++ --suppress=missingIncludeSystem path/to/src
+```
+
+6. **Commit Your Changes:** Commit your changes with a clear and concise commit message:
 ```shell
 git commit -m "Add feature/fix: brief description of your changes"
 ```
 
-6. **Push to Your Fork:** Push your changes to your forked repository:
+7. **Push to Your Fork:** Push your changes to your forked repository:
 ```shell
 git push origin feature/your-feature-name
 ```
-7. **Create a Pull Request (PR):** Go to the original repository on GitHub and click the "New Pull Request" button. Provide a clear title and description for your PR, explaining what it adds or fixes.
+8. **Create a Pull Request (PR):** Go to the original repository on GitHub and click the "New Pull Request" button. Provide a clear title and description for your PR, explaining what it adds or fixes.
 
-8. **Review and Discussion:** Participate in the discussion related to your pull request. Be ready to address feedback and make changes if necessary.
+9. **Review and Discussion:** Participate in the discussion related to your pull request. Be ready to address feedback and make changes if necessary.
 
-9. **Merge:** Once your contribution is approved, it will be merged into the main repository. Congratulations on your contribution!
+10. **Merge:** Once your contribution is approved, it will be merged into the main repository. Congratulations on your contribution!
 
 ## Code Style and Guidelines
 
