@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int binary_search(std::vector<int> &list, int target) {
+int binary_search(const std::vector<int> &list, int target) {
 
   int low = 0;
   int high = list.size() - 1;

@@ -17,7 +17,7 @@ Make sure you have the following tools installed on your system:
 
    ```bash
    git clone https://github.com/paulosell/grokking-algorithms.git
-   cd binary_search
+   cd binary_search/c++
    ```
 
 2. **Create a Build Directory:**
