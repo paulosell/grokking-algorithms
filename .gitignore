@@ -80,7 +80,7 @@ CMakeCache.txt
 CMakeFiles
 CMakeScripts
 Testing
-Makefile
+**/build
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
@@ -114,6 +114,7 @@ environment_run.ps1.env
 environment_run.sh.env
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
