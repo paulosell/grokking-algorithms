@@ -1,4 +1,4 @@
-# |Not Recursive Greeting
+# Not Recursive Greeting
 
 ## Overview
 
