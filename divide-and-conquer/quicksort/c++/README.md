@@ -1,8 +1,8 @@
-# Selection Sort
+# Quicksort
 
 ## Overview
 
-This project implements a sorting algorithm in C++ called **selection sort**. 
+This project implements a sorting algorithm in C++ called **quicksort**. 
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ Make sure you have the following tools installed on your system:
 
    ```bash
    git clone https://github.com/paulosell/grokking-algorithms.git
-   cd selection_sort/c++
+   cd divide-and-conquer/quicksort/c++
    ```
 
 2. **Create a Build Directory:**
@@ -46,7 +46,7 @@ Make sure you have the following tools installed on your system:
 After successfully building the project, you can run the executable to perform a binary search:
 
 ```bash
-./selection_sort
+./quicksort
 ```
 
 Follow the on-screen instructions to interact with the binary search program.
