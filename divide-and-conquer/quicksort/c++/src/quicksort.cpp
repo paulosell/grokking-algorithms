@@ -5,7 +5,7 @@ std::vector<int> quicksort(std::vector<int> &array) {
 
   if (array.size() < 2) return array;
 
-  int sentinel = array[0];
+  int sentinel = array[(array.size() - 1) / 2];
 
   std::vector<int> less, greater;
 
